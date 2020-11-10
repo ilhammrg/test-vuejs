@@ -99,60 +99,7 @@
       "gambar": "lontong-opor-ayam.jpg"
     }
   ],
-  "keranjangs": [
-    {
-      "jumlah_pesanan": "5",
-      "keterangan": "Bumbu kecap",
-      "product": {
-        "id": 1,
-        "kode": "K-01",
-        "nama": "Sate Ayam",
-        "harga": 16000,
-        "is_ready": true,
-        "gambar": "sate-ayam.jpg"
-      },
-      "id": 1
-    },
-    {
-      "jumlah_pesanan": "1",
-      "keterangan": "Pedas",
-      "product": {
-        "id": 2,
-        "kode": "K-02",
-        "nama": "Nasi Goreng Telur",
-        "harga": 14000,
-        "is_ready": true,
-        "gambar": "nasi-goreng-telor.jpg"
-      },
-      "id": 2
-    },
-    {
-      "jumlah_pesanan": "10",
-      "keterangan": "pedaz",
-      "product": {
-        "id": 2,
-        "kode": "K-02",
-        "nama": "Nasi Goreng Telur",
-        "harga": 14000,
-        "is_ready": true,
-        "gambar": "nasi-goreng-telor.jpg"
-      },
-      "id": 3
-    },
-    {
-      "jumlah_pesanan": "3",
-      "keterangan": "Yamin manis",
-      "product": {
-        "id": 6,
-        "kode": "K-06",
-        "nama": "Bakso",
-        "harga": 10000,
-        "is_ready": true,
-        "gambar": "bakso.jpg"
-      },
-      "id": 4
-    }
-  ],
+  "keranjangs": [],
   "pesanans": [
     {
       "nama": "Afif",
@@ -185,6 +132,125 @@
         }
       ],
       "id": 1
+    },
+    {
+      "nama": "ilham",
+      "nomorMeja": "a1",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": 1,
+          "keterangan": "",
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pesanan": 1,
+          "keterangan": "Pedaz",
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Nasi Goreng Telur",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nama": "yadi",
+      "nomorMeja": "123",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": 1,
+          "keterangan": "",
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nama": "Steven",
+      "nomorMeja": "13",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": 1,
+          "keterangan": "",
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pesanan": 1,
+          "keterangan": "",
+          "product": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Bakso",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "bakso.jpg"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_pesanan": 1,
+          "keterangan": "",
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Mie Ayam Bakso",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "mie-ayam-bakso.jpg"
+          },
+          "id": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "nama": "Yono",
+      "nomorMeja": "4",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": 1,
+          "keterangan": "",
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 5
     }
   ]
 }

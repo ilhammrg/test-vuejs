@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+    <Navbar />
+
     <main class="container">
       <Hero />
 
@@ -28,6 +30,7 @@
 </template>
 
 <script>
+import Navbar from "../components/Navbar.vue";
 import Hero from "../components/Hero.vue";
 import CardProduct from "../components/CardProduct.vue";
 import axios from "axios";
@@ -37,6 +40,7 @@ export default {
   components: {
     Hero,
     CardProduct,
+    Navbar,
   },
   data() {
     return {

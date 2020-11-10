@@ -19,6 +19,16 @@ const routes = [
     path: '/foods/:id',
     name: 'FoodDetail',
     component: () => import(/* webpackChunkName: "food-detail" */ '../views/FoodDetail.vue')
+  },
+  {
+    path: '/keranjang',
+    name: 'Keranjang',
+    component: () => import(/* webpackChunkName: "keranjang" */ '../views/Keranjang.vue')
+  },
+  {
+    path: '/pesanan-sukses',
+    name: 'PesananSukses',
+    component: () => import(/* webpackChunkName: "pesanan-sukses" */ '../views/PesananSukses.vue')
   }
 ]
 

@@ -1,5 +1,7 @@
 <template>
   <div class="food-detail">
+    <Navbar />
+
     <main class="container">
       <!-- breadcrumb -->
       <div class="row mt-5">
@@ -44,7 +46,7 @@
               <label for="jumlah-pesanan">Jumlah Pesanan:</label>
               <input
                 type="number"
-                min="0"
+                min="1"
                 class="form-control"
                 id="jumlah-pesanan"
                 placeholder="Jumlah pesanan, misal: 1, 2, dll..."
@@ -74,14 +76,18 @@
 
 <script>
 import axios from "axios";
+import Navbar from "../components/Navbar.vue";
 
 export default {
   name: "FoodDetail",
+  components: {
+    Navbar,
+  },
   data() {
     return {
       product: {},
       pesan: {
-        jumlah_pesanan: 0,
+        jumlah_pesanan: 1,
         keterangan: "",
         product: {},
       },
@@ -97,6 +103,7 @@ export default {
         axios
           .post("http://localhost:4000/keranjangs", this.pesan)
           .then(() => {
+            this.$router.push({ path: "/keranjang" });
             this.$toast.success("Pesanan masuk keranjang!", {
               position: "top-right",
               type: "success",

@@ -1,29 +1,26 @@
 <template>
   <div id="app">
-    <Navbar />
-    <router-view/>
+    <router-view />
     <Footer />
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
-import Footer from './components/Footer.vue'
+import Footer from "./components/Footer.vue";
 
 export default {
   components: {
-    Navbar,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
 
 <style>
 #app {
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr auto;
   height: 100vh;
-  font-family: 'Montserrat', Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
